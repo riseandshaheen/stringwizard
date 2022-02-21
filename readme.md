@@ -8,12 +8,6 @@ You can directly input a text as a command in the terminal window and evaluate i
 
 Example:
 ```
-$ stringparse list --text "Hackers beware." --metric words --unique
-textPtr: Hackers beware., metricPtr: words, uniquePtr: true
-
-$ stringparse count --text "She sells sea shells by the sea shore" --metric substring --substringList se,sh,ea,he
-textPtr: She sells sea shells by the sea shore, metricPtr: substring, substringPtr: , substringListPtr: [se sh ea he], uniquePtr: false
-
-$ stringparse count --text "Komand Security"
-textPtr: Komand Security, metricPtr: chars, substringPtr: , substringListPtr: [], uniquePtr: false
+$ stringwizard --text "How you doin'?"
+Your string has 15 chars
 ```
